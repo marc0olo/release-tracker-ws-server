@@ -1,0 +1,24 @@
+{
+  "name": "release-tracker-ws-server",
+  "version": "1.0.0",
+  "description": "a websocket server that tracks GitHub repositories for new releases and notifies clients",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marc0olo/release-tracker-ws-server.git"
+  },
+  "author": "Marco Walz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marc0olo/release-tracker-ws-server/issues"
+  },
+  "homepage": "https://github.com/marc0olo/release-tracker-ws-server#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "ws": "^7.3.1"
+  },
+  "devDependencies": {}
+}
